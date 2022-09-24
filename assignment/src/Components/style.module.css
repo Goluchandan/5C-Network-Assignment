@@ -1,0 +1,168 @@
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  gap: 30px;
+}
+.github > input {
+  height: 20px;
+  padding: 10px 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.github > button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: green;
+  letter-spacing: 1px;
+}
+.goback {
+  height: 40px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  gap: 10px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.main_container > div {
+  justify-content: center;
+  align-items: center;
+  border: 8px solid ghostwhite;
+  padding: 30px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.ownerDetails > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  padding: 30px 20px 20px 20px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  gap: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ownerDetails > div > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.ownerDetails > div > div> button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: blueviolet;
+  letter-spacing: 1px;
+}
+/* here  is followername component css */
+
+.followerData {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 8%;
+  width: 70%;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.followerData > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid ghostwhite;
+  padding: 30px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  gap: 30px;
+}
+.followerData > div > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* here  is follower component css */
+
+.followerRepo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 70%;
+  align-items: center;
+  gap: 10px;
+}
+.followerRepo > div {
+  justify-content: center;
+  align-items: center;
+  border: 8px solid ghostwhite;
+  padding: 30px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  gap: 30px;
+}
+
+/* here  is RepoDetails component css */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: repeat(2, 40% 60%);
+  align-items: center;
+  border: 8px solid ghostwhite;
+  padding: 30px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.container > div > h3 {
+  text-align: justify;
+}
+b {
+  color: brown;
+}
